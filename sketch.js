@@ -18,7 +18,7 @@ createCanvas(windowWidth,windowHeight)
 //noFill()
 //noCanvas()
 video = createCapture(VIDEO)
-//video.hide()
+video.hide()
 video.size(windowWidth,windowHeight)
 asciiDiv = createDiv()
 poseNet = ml5.poseNet(video, modelLoaded)//動捕模型
